@@ -1,0 +1,50 @@
+.header-section {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-section .header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0px;
+}
+
+.header-section .links{
+    display: flex;
+    gap: 12px;
+}
+
+.header-section .hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.hero-text h1{
+ font-size: 48px;
+ font-weight: bold;
+ color: #F9FAF8;
+ margin-bottom: 0px;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header h4{
+    font-size: 24x;
+    color: #F9FAF8;
+}
+
+.hero-text button{
+   margin-top: 0px;
+   margin-bottom: 10px;
+}
+
+.placeholder-image{
+    background-color: #808080;
+    padding: 50px;
+}
