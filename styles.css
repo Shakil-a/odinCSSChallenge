@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .header-section {
     background-color: #1F2937;
     color: white;
@@ -7,17 +12,19 @@
     display: flex;
     justify-content: space-around;
     padding-top: 0px;
+    font-size: 40px;
 }
 
 .header-section .links{
     display: flex;
     gap: 12px;
+    font-size: 25px;
 }
 
 .header-section .hero{
     display: flex;
-    justify-content: space-around;
-    padding: 40px;
+    justify-content: center;
+    padding-bottom: 80px;
 }
 
 .hero-text h1{
@@ -40,11 +47,45 @@
 }
 
 .hero-text button{
-   margin-top: 0px;
-   margin-bottom: 10px;
+   margin-top: 5px;
+   padding: 5px 10px;
+   background-color: blue;
+   color: white;
+   font-weight: bold;
 }
 
 .placeholder-image{
     background-color: #808080;
     padding: 50px;
+    margin-left: 300px;
+    width: 400px;
+    height: 120px;
+}
+
+.random-section h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes div{
+    border: blue 2px solid;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.box-text{
+    display: flex;
+    justify-content: center;
+}
+
+.box-text h3{
+    font-size: 15px;
+    margin-left: 50px;
 }
